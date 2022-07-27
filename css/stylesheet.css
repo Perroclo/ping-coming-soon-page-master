@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+
+*{
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+font-family: 'Libre Franklin', sans-serif;
+}
+
+:root{
+
+    --Blue: hsl(223, 87%, 63%);
+    --Pale-Blue: hsl(223, 100%, 88%);
+    --Light-Red: hsl(354, 100%, 66%);
+    --Gray: hsl(0, 0%, 59%);
+    --Very-Dark-Blue: hsl(209, 33%, 12%);
+
+
+}
+
+
+body{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+flex-direction: column;
+background: white;
+}
+
+
+.container{
+display: flex;
+align-items: center;
+flex-direction: column;
+width: 86%;
+height: 87%;
+background: white;
+margin-left: 20px;
+margin-right: 20px;
+margin-top: 20px;
+margin-bottom: 20px;
+height: 100%;
+}
+
+.imagenStock{
+min-width: 356px;
+max-width: 380px;
+border-radius: 10px;
+
+}
+
+h1{
+font-size: 27px;
+font-weight: 500;
+padding-bottom: 23px;
+text-align: center;
+color: var(--Gray);
+}
+
+h2{
+    font-size: 15px;    
+    text-align: center;
+    padding-bottom: 17px;   
+    font-weight: 400;
+}
+
+.soon{
+
+font-weight: 700;
+color: black;
+
+}
+
+.ping{
+padding-top: 50px;
+padding-bottom: 50px;
+}
+
+.zonaImagen{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario ,.input,.submit{
+
+    width: 100%;
+    padding: 15px;
+    max-width: 400px;
+}
+
+.input, .submit{
+
+border-radius: 21px;
+height: 45px;
+margin-bottom: 11px;
+border: solid 1px var(--Gray);
+}
+
+.input{
+
+padding-left: 38px;
+
+
+}
+
+.submit{
+   background: var(--Blue);
+   color: white;
+   font-weight: 600;
+   border: none;
+   margin-bottom: 50px;
+   box-shadow: 4px 8px 10px -4px var(--Blue);
+}
+
+.pie{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 123px;
+    gap: 10px;
+}
+
+.copyright{
+
+font-size: 10px;
+
+}
+
+.fa-facebook, .fa-twitter, .fa-instagram-square{
+font-size: 30px;
+
+}
+
+.iconos{
+
+    display: flex;
+    gap: 26px;
+}
+
+.fa-facebook:hover, .fa-twitter:hover, .fa-instagram-square:hover{
+
+cursor: pointer;
+font-size: 31px;
+
+}
+
+.warning{
+position: relative;
+bottom:25px;
+
+}
+
+
+@media only screen and (min-width: 1200px){
+
+.formulario{
+    display: flex;
+    width: 577px;
+    max-width: 600px;
+    gap: 14px;
+}
+
+
+.container{
+
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.imagenStock{
+
+max-width: 600px;
+
+}
+
+.submit{
+width: 50%;
+
+}
+
+.fa-facebook, .fa-twitter, .fa-instagram-square{
+    font-size: 15px;
+    color: var(--Blue);
+    }
+
+h1{
+font-size: 41px;
+
+}
+
+}
+
